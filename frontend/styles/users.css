@@ -1,0 +1,73 @@
+#page-profile {
+margin-top: 100px;
+}
+
+@media screen and (max-width: 480px) {
+#page-profile {
+    margin-top: 150px;
+    padding-bottom: 60px;
+}
+}
+
+.avatar {
+width: 100px;
+height: 100px;
+background-size: cover;
+border-radius: 50%;
+}
+
+.user-info__text {
+margin-top: 10px;
+font-size: 18px;
+font-weight: bold;
+}
+
+#edit-profile-button {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+#watch-button {
+width: 80px;
+margin-top: 10px;
+}
+
+#user-info {
+margin-top: 20px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+#user-watchees {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+#user-jobs {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+#user-email {
+margin-top: -5px;
+}
+
+#watchees-info {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}

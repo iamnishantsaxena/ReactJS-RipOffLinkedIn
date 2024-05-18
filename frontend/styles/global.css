@@ -1,0 +1,157 @@
+/* base styles, feel free to edit */
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+.nav-item:hover {
+cursor: pointer;
+}
+
+/* Header Section */
+header {
+position: fixed;
+top: 0;
+z-index: 999;
+width: 100%;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+  #website-name {
+      display: none;
+  }
+
+  header .container {
+      flex-direction: column;
+      font-size: medium;
+  }
+
+  #watch-user-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+  }
+
+  #watch-user-button button {
+      margin: auto;
+      font-size: smaller;
+  }
+}
+
+/* Register CSS */
+#page-register form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: calc(100vh - 200px);
+}
+
+#page-register .form-group {
+  width: 300px;
+}
+
+#page-register label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#page-register input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#page-register #register-button {
+  width: 100px;
+}
+
+/* Login CSS */
+#page-login form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: calc(100vh - 200px);
+}
+
+#page-login .form-group {
+  width: 300px;
+}
+
+#page-login label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#page-login input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#page-login #login-button {
+  width: 100px;
+}
+
+/* Logged In Page CSS */
+#section-logged-in .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.drop-zone {
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: border 0.3s;
+}
+
+.drop-zone--over {
+  border-color: #007bff;
+}
+
+/* Footer CSS */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+}
