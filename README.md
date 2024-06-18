@@ -1,4 +1,4 @@
-# LurkForWork
+# LinkedIn Clone using Vanilla JS
 
 LurkForWork is a frontend website built in Vanilla JS that serves as a rip-off version of the popular professional social networking tool LinkedIn. It interacts with a RESTful API HTTP backend built in JavaScript (NodeJS express server).
 
