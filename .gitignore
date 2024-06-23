@@ -1,5 +1,5 @@
 node_modules
 backend/database.json
-backend/
+frontend/node_modules
 .DS_Store
 .idea
